@@ -34,8 +34,8 @@ class masinaDeCurse extends Masina {
 }
 
 function user() {
-  let masinaDeCurse1 = new masinaDeCurse1("Toyota", "Turbo", "rosu", "100000");
-  let masinaDeCurse2 = new masinaDeCurse1("Toyota", "RAV4", "gri", "120000");
+  let masinaDeCurse1 = new masinaDeCurse("Toyota", "Turbo", "rosu", "100000");
+  let masinaDeCurse2 = new masinaDeCurse("Toyota", "RAV4", "gri", "120000");
   masinaDeCurse1.participaLaCampionat(2);
   masinaDeCurse2.participaLaCampionat(-1);
 
