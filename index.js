@@ -6,7 +6,7 @@ class Masina {
     this.kilometraj = kilometraj;
   }
   getProprietati() {
-    return "Masina[marca=${this.marca},model=${this.model},culoare${this.culoare},kilometraj=${this.kilometraj}]";
+    return `Masina[marca=${this.marca},model=${this.model},culoare${this.culoare},kilometraj=${this.kilometraj}]`;
   }
 }
 function main() {
